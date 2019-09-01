@@ -1,4 +1,4 @@
-package com.test.demo.config;
+package com.test.demo.common.config;
 
 import com.google.common.collect.Lists;
 import org.springframework.context.annotation.Bean;
