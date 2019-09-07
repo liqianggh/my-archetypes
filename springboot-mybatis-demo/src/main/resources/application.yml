@@ -9,3 +9,6 @@ spring:
   jackson:
     # json序列化时使用下划线格式
     property-naming-strategy: CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES
+mybatis:
+  typeAliasesPackage: cn.com.dao.meta
+  mapperLocations: classpath:mappers/**/*.xml
